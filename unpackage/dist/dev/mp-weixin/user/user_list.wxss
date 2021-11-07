@@ -1,0 +1,62 @@
+.page {
+  padding: 35rpx;
+}
+.page .header {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.page .header .keyword {
+  border: solid 1rpx #EEEEEE;
+  background-color: #F5F5F5;
+  font-size: 30rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 70rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  padding: 0 25rpx 0 70rpx;
+  color: #666;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+          flex-grow: 1;
+  -webkit-flex-shrink: 1;
+          flex-shrink: 1;
+}
+.page .header .search-icon {
+  position: absolute;
+  top: 22rpx;
+  left: 25rpx;
+}
+.page .header .btn {
+  height: 70rpx;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0 20rpx;
+  line-height: 70rpx;
+  font-size: 28rpx;
+  -webkit-box-flex: 0;
+  -webkit-flex-grow: 0;
+          flex-grow: 0;
+  -webkit-flex-shrink: 0;
+          flex-shrink: 0;
+  margin-left: 20rpx;
+  -webkit-border-radius: 10rpx;
+          border-radius: 10rpx;
+  background-color: #3474FF;
+  color: #fff;
+}
+.page .header .btn:active {
+  background-color: #0052FF;
+}
+.page .list-title {
+  margin-top: 35rpx;
+  margin-bottom: 35rpx;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #3474FF;
+  border-left: solid 15rpx #3474FF;
+  padding-left: 20rpx;
+}
+
